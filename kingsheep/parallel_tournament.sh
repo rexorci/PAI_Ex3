@@ -1,13 +1,13 @@
 #!/bin/bash
 echo "Start Tournament"
-source ../../venv/bin/activate
+source ../venv/bin/activate
 
-script1=chriweb_a2
-script2=chriweb_a1
+script1=chriweb_a3
+script2=chriweb_a2
 player1=IntrepidIbex
-player2=CSA
+player2=DecisionTreeAlgo
 
-n_maps=20
+n_maps=1
 
 ts=$(date "+%Y%m%d%H%M%S")
 

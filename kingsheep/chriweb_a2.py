@@ -26,7 +26,7 @@ import pickle
 
 
 def get_class_name():
-    return 'IntrepidIbex'
+    return 'DecisionTreeAlgo'
 
 
 class DecisionTreeAlgo():
@@ -37,10 +37,10 @@ class DecisionTreeAlgo():
         self.uzh_shortname = "chriweb"
 
     def get_sheep_model(self):
-        return pickle.load(open('chriweb_sheep_model.sav', 'rb'))
+        return pickle.load(open('chriweb_sheep_model_A2.sav', 'rb'))
 
     def get_wolf_model(self):
-        return pickle.load(open('chriweb_wolf_model.sav', 'rb'))
+        return pickle.load(open('chriweb_wolf_model_A2.sav', 'rb'))
 
     def move_sheep(self, figure, field, sheep_model):
         X_sheep = []

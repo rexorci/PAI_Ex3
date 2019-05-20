@@ -58,7 +58,7 @@ class IntrepidIbex():
     def get_features_sheep(self, player_number, field):
         game_features = []
         # player 1 starts in top half, so it may change the "general direction"
-        game_features.append(player_number)
+        # game_features.append(player_number)
         # # behavior changes if no food is left
         # if self.food_present(field):
         #     game_features.append(1)
@@ -72,7 +72,7 @@ class IntrepidIbex():
         # game_features.append(self.get_enemy_distance(player_number, field, False))
 
         # we want to go into direction of enemy sheep to reduce their possible food sources
-        game_features.append(self.get_enemy_direction(player_number, field, True))
+        # game_features.append(self.get_enemy_direction(player_number, field, True))
 
         # how far is the sheep away?
         # game_features.append(self.get_enemy_distance(player_number, field, True))
