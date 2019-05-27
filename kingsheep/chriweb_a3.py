@@ -180,13 +180,13 @@ class IntrepidIbex():
         game_features = []
 
         # player 1 starts in top half, so it may change the "general direction"
-        game_features.append(player_number)
+        # game_features.append(player_number)
 
         # we want to go into direction of sheep
-        game_features.append(self.get_enemy_direction(player_number, field, True))
+        # game_features.append(self.get_enemy_direction(player_number, field, True))
 
         # direction with most degrees of freedom
-        game_features.append(self.get_most_free_direction(player_number, field, False))
+        # game_features.append(self.get_most_free_direction(player_number, field, False))
 
         game_features.append(self.get_wolf_move_a1(player_number, field))
         return game_features
